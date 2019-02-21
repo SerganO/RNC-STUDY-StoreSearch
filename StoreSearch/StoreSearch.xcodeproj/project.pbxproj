@@ -11,6 +11,7 @@
 		EC51A1CC221EAA65000DC0D0 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */; };
 		EC51A1CE221EAE99000DC0D0 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51A1CD221EAE99000DC0D0 /* SearchResultCell.swift */; };
 		EC51A1D0221EB1E5000DC0D0 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC51A1CF221EB1E5000DC0D0 /* NothingFoundCell.xib */; };
+		EC51A1D2221EDE9A000DC0D0 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */; };
 		EC58C1AF221D78F300B8F435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1AE221D78F300B8F435 /* AppDelegate.swift */; };
 		EC58C1B1221D78F300B8F435 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1B0221D78F300B8F435 /* SearchViewController.swift */; };
 		EC58C1B4221D78F300B8F435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC58C1B2221D78F300B8F435 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		EC51A1CD221EAE99000DC0D0 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		EC51A1CF221EB1E5000DC0D0 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		EC58C1AB221D78F300B8F435 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC58C1AE221D78F300B8F435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC58C1B0221D78F300B8F435 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */,
 				EC51A1CD221EAE99000DC0D0 /* SearchResultCell.swift */,
 				EC51A1CF221EB1E5000DC0D0 /* NothingFoundCell.xib */,
+				EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				EC58C1BC221D78F600B8F435 /* LaunchScreen.storyboard in Resources */,
 				EC58C1B9221D78F600B8F435 /* Assets.xcassets in Resources */,
+				EC51A1D2221EDE9A000DC0D0 /* LoadingCell.xib in Resources */,
 				EC51A1CC221EAA65000DC0D0 /* SearchResultCell.xib in Resources */,
 				EC51A1D0221EB1E5000DC0D0 /* NothingFoundCell.xib in Resources */,
 				EC58C1B4221D78F300B8F435 /* Main.storyboard in Resources */,
