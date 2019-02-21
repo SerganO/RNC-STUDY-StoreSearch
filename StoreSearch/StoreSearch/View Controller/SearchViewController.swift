@@ -159,7 +159,14 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource
             let cell = tableView.dequeueReusableCell(withIdentifier: TableView.CellIdentifiers.searchResultCell, for: indexPath) as! SearchResultCell
             let searchResult = searchResults[indexPath.row]
             cell.nameLabel.text = searchResult.name
-            cell.artistNameLabel.text = searchResult.artistName
+            if searchResult.artist.isEmpty
+            {
+                cell.artistNameLabel.text = "Unknowm"
+            }
+            else
+            {
+                cell.artistNameLabel.text = String(format: "%@ (%@)", searchResult.artist,searchResult.type)
+            }
             
              return cell
         }
