@@ -8,6 +8,17 @@
 
 import Foundation
 
+func < (lhs: SearchResult, rhs: SearchResult) -> Bool
+{
+    return lhs.name.localizedStandardCompare(rhs.name) == .orderedAscending
+}
+
+func > (lhs: SearchResult, rhs: SearchResult) -> Bool
+{
+    return !(lhs < rhs)
+}
+
+
 class ResultArray: Codable
 {
     var resultCount = 0
@@ -99,4 +110,7 @@ class SearchResult: Codable, CustomStringConvertible
     {
         return "Kind: \(kind ?? "None"), Name: \(name), Artist Name: \(artistName ?? "None")"
     }
+    
+    
+    
 }
