@@ -127,7 +127,8 @@ extension SearchViewController: UISearchBarDelegate
                 data, response, error in
                 if let error = error as NSError?, error.code == -999
                 {
-                print("Failure! \(error.localizedDescription)")
+                    print("************* \(error.domain)")
+                    return
                 }
                 else if let httpResponse = response as? HTTPURLResponse,
                 httpResponse.statusCode == 200
