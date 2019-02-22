@@ -31,6 +31,14 @@ class SearchResultCell: UITableViewCell
         selectedView.backgroundColor = UIColor(red: 20/255, green: 160/255, blue: 160/255, alpha: 0.5)
         selectedBackgroundView = selectedView;
     }
+     //__________ Prepare __________
+    
+    override func prepareForReuse()
+    {
+        super.prepareForReuse()
+        downloadTask?.cancel()
+        downloadTask = nil
+    }
     
     //__________  __________
     
