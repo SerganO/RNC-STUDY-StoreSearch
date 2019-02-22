@@ -142,10 +142,13 @@
                                         <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-JJ-Ozu">
-                                        <rect key="frame" x="164" y="208" width="68" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-JJ-Ozu">
+                                        <rect key="frame" x="161" y="208" width="71" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="KtV-NL-DKy"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="6" maxY="0.0"/>
                                         <state key="normal" title="$9.99"/>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9so-LU-T1k">
@@ -157,6 +160,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="GtY-iw-yNe"/>
                                     <constraint firstAttribute="width" constant="240" id="O3r-RD-goD"/>
+                                    <constraint firstItem="94Y-EH-0X1" firstAttribute="trailing" secondItem="M4U-JJ-Ozu" secondAttribute="trailing" constant="8" id="co8-Gv-wdV"/>
+                                    <constraint firstItem="94Y-EH-0X1" firstAttribute="bottom" secondItem="M4U-JJ-Ozu" secondAttribute="bottom" constant="8" id="dQN-AU-XbP"/>
                                 </constraints>
                                 <viewLayoutGuide key="safeArea" id="94Y-EH-0X1"/>
                             </view>
@@ -168,6 +173,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FbL-ec-iGv"/>
                     </view>
+                    <connections>
+                        <outlet property="artistNameLabel" destination="yzc-hO-y88" id="E9d-PN-y8z"/>
+                        <outlet property="artworkImageView" destination="9so-LU-T1k" id="PGI-D8-fHW"/>
+                        <outlet property="genreLabel" destination="z0L-yd-Zv6" id="UH7-AL-g9z"/>
+                        <outlet property="kindLabel" destination="OfL-1o-jyc" id="SvQ-mS-GXc"/>
+                        <outlet property="nameLabel" destination="9Bk-lg-J2g" id="fqs-PG-UHj"/>
+                        <outlet property="popupView" destination="an8-mp-7Sc" id="lgu-XV-XR4"/>
+                        <outlet property="priceButton" destination="M4U-JJ-Ozu" id="OYU-Bc-u0d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llQ-dB-fAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -40,7 +40,21 @@ class SearchViewController: UIViewController {
             static let loadingCell = "LoadingCell"
         }
     }
-
+    
+    //__________ Prepare __________
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "ShowDetail"
+        {
+            let detailViewController = segue.destination as! DetailViewController
+            let indexPath = sender as! IndexPath
+            let searchResult = searchResults[indexPath.row]
+            detailViewController.searchResult = searchResult
+        }
+    }
+    
+    
     //__________ Load __________
     
     override func viewDidLoad()

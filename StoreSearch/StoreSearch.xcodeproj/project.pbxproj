@@ -101,7 +101,6 @@
 		EC51A1C7221EA114000DC0D0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */,
 				EC51A1CD221EAE99000DC0D0 /* SearchResultCell.swift */,
 				EC51A1CF221EB1E5000DC0D0 /* NothingFoundCell.xib */,
 				EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */,
@@ -115,6 +114,7 @@
 				EC58C1B0221D78F300B8F435 /* SearchViewController.swift */,
 				EC5739EC2220113E00733397 /* DetailViewController.swift */,
 				EC5739EE2220170900733397 /* DImmingPresentationController.swift */,
+				EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
