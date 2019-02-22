@@ -115,6 +115,7 @@ extension SearchViewController: UISearchBarDelegate
             isLoading = true
             tableView.reloadData()
             
+            //hasSearched = false
             hasSearched = true
             searchResults = []
             
