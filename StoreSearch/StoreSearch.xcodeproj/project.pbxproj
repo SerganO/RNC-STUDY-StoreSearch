@@ -14,6 +14,7 @@
 		EC51A1D2221EDE9A000DC0D0 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */; };
 		EC5739E7222002C900733397 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5739E6222002C900733397 /* UIImageView+DownloadImage.swift */; };
 		EC5739ED2220113E00733397 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5739EC2220113E00733397 /* DetailViewController.swift */; };
+		EC5739EF2220170900733397 /* DImmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5739EE2220170900733397 /* DImmingPresentationController.swift */; };
 		EC58C1AF221D78F300B8F435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1AE221D78F300B8F435 /* AppDelegate.swift */; };
 		EC58C1B1221D78F300B8F435 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1B0221D78F300B8F435 /* SearchViewController.swift */; };
 		EC58C1B4221D78F300B8F435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC58C1B2221D78F300B8F435 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		EC5739E6222002C900733397 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 		EC5739EC2220113E00733397 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EC5739EE2220170900733397 /* DImmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DImmingPresentationController.swift; sourceTree = "<group>"; };
 		EC58C1AB221D78F300B8F435 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC58C1AE221D78F300B8F435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC58C1B0221D78F300B8F435 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				EC58C1B0221D78F300B8F435 /* SearchViewController.swift */,
 				EC5739EC2220113E00733397 /* DetailViewController.swift */,
+				EC5739EE2220170900733397 /* DImmingPresentationController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				EC58C1B1221D78F300B8F435 /* SearchViewController.swift in Sources */,
 				EC58C1AF221D78F300B8F435 /* AppDelegate.swift in Sources */,
 				EC5739E7222002C900733397 /* UIImageView+DownloadImage.swift in Sources */,
+				EC5739EF2220170900733397 /* DImmingPresentationController.swift in Sources */,
 				EC51A1CA221EA171000DC0D0 /* SearchResult.swift in Sources */,
 				EC58C1B7221D78F300B8F435 /* StoreSearch.xcdatamodeld in Sources */,
 				EC51A1CE221EAE99000DC0D0 /* SearchResultCell.swift in Sources */,
