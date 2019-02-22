@@ -76,6 +76,9 @@ class SearchViewController: UIViewController {
     
     func parse(data: Data) -> [SearchResult]
     {
+//        if let debugResponse = String.init(data: data, encoding: .utf8) {
+//            print(debugResponse)
+//        }
         do
         {
             let decoder = JSONDecoder()

@@ -15,7 +15,7 @@ func < (lhs: SearchResult, rhs: SearchResult) -> Bool
 
 func > (lhs: SearchResult, rhs: SearchResult) -> Bool
 {
-    return !(lhs < rhs)
+    return lhs.name.localizedStandardCompare(rhs.name) == .orderedDescending
 }
 
 
@@ -27,6 +27,7 @@ class ResultArray: Codable
 
 class SearchResult: Codable, CustomStringConvertible
 {
+    
     var kind: String? = ""
     var artistName: String? = ""
     var trackName: String? = ""
@@ -110,7 +111,5 @@ class SearchResult: Codable, CustomStringConvertible
     {
         return "Kind: \(kind ?? "None"), Name: \(name), Artist Name: \(artistName ?? "None")"
     }
-    
-    
     
 }
