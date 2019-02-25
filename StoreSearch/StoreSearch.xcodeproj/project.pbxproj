@@ -22,6 +22,9 @@
 		EC58C1B9221D78F600B8F435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC58C1B8221D78F600B8F435 /* Assets.xcassets */; };
 		EC58C1C7221D78F600B8F435 /* StoreSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1C6221D78F600B8F435 /* StoreSearchTests.swift */; };
 		EC58C1D2221D78F600B8F435 /* StoreSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1D1221D78F600B8F435 /* StoreSearchUITests.swift */; };
+		EC76F77B2224153600E19A8C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77A2224153600E19A8C /* GradientView.swift */; };
+		EC76F77D2224193E00E19A8C /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */; };
+		EC76F77F22241D8600E19A8C /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		EC58C1CD221D78F600B8F435 /* StoreSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC58C1D1221D78F600B8F435 /* StoreSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSearchUITests.swift; sourceTree = "<group>"; };
 		EC58C1D3221D78F600B8F435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC76F77A2224153600E19A8C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
+		EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +107,11 @@
 		EC51A1C7221EA114000DC0D0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */,
 				EC51A1CD221EAE99000DC0D0 /* SearchResultCell.swift */,
 				EC51A1CF221EB1E5000DC0D0 /* NothingFoundCell.xib */,
 				EC51A1D1221EDE9A000DC0D0 /* LoadingCell.xib */,
+				EC76F77A2224153600E19A8C /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,7 +122,8 @@
 				EC58C1B0221D78F300B8F435 /* SearchViewController.swift */,
 				EC5739EC2220113E00733397 /* DetailViewController.swift */,
 				EC5739EE2220170900733397 /* DImmingPresentationController.swift */,
-				EC51A1CB221EAA65000DC0D0 /* SearchResultCell.xib */,
+				EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */,
+				EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -318,10 +327,13 @@
 				EC58C1AF221D78F300B8F435 /* AppDelegate.swift in Sources */,
 				EC5739E7222002C900733397 /* UIImageView+DownloadImage.swift in Sources */,
 				EC5739EF2220170900733397 /* DImmingPresentationController.swift in Sources */,
+				EC76F77D2224193E00E19A8C /* BounceAnimationController.swift in Sources */,
 				EC51A1CA221EA171000DC0D0 /* SearchResult.swift in Sources */,
 				EC58C1B7221D78F300B8F435 /* StoreSearch.xcdatamodeld in Sources */,
 				EC51A1CE221EAE99000DC0D0 /* SearchResultCell.swift in Sources */,
+				EC76F77F22241D8600E19A8C /* SlideOutAnimationController.swift in Sources */,
 				EC5739ED2220113E00733397 /* DetailViewController.swift in Sources */,
+				EC76F77B2224153600E19A8C /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
