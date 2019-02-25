@@ -29,7 +29,7 @@ class DetailViewController: UIViewController
     
     //__________ Actions __________
     
-    @IBAction func oprnInStore()
+    @IBAction func openInStore()
     {
         if let url = URL(string: searchResult.storeURL)
         {
