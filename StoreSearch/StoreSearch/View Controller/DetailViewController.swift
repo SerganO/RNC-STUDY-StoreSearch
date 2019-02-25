@@ -27,6 +27,15 @@ class DetailViewController: UIViewController
     var searchResult: SearchResult!
     var downloadTask: URLSessionDownloadTask?
     
+    
+    enum AnimationStyle
+    {
+        case slide
+        case fade
+    }
+    
+    var dismissStyle = AnimationStyle.fade
+    
     //__________ Actions __________
     
     @IBAction func openInStore()
@@ -35,6 +44,12 @@ class DetailViewController: UIViewController
         {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
+    }
+    
+    @IBAction func close()
+    {
+        dismissStyle = .slide
+        dismiss(animated: true, completion: nil)
     }
     
     //__________ Load __________
@@ -60,12 +75,7 @@ class DetailViewController: UIViewController
         }
     }
     
-    //__________ Actions __________
-    
-    @IBAction func close()
-    {
-        dismiss(animated: true, completion: nil)
-    }
+
 
     //__________ Init __________
     
@@ -151,8 +161,15 @@ extension DetailViewController: UIViewControllerTransitioningDelegate
     
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning?
     {
-        return SlideOutAnimationController()
+        switch dismissStyle
+        {
+        case .slide:
+            return SlideOutAnimationController()
+        case .fade:
+            return FadeOutAnimationController()
+        }
     }
+    
     
 }
 
