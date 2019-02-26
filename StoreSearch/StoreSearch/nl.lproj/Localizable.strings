@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  StoreSearch
+
+  Created by Trainee on 2/26/19.
+  Copyright © 2019 Trainee. All rights reserved.
+*/
+
+/* Format for artist name */
+"ARTIST_NAME_LABEL_FORMAT" = "%2$@ van %1$@";
+
+/* Localized kind: Album */
+"Album" = "Album";
+
+/* Localized kind: App */
+"App" = "App";
+
+/* Localized kind: Audio Book */
+"Audio Book" = "Audioboek";
+
+/* Localized kind: Book */
+"Book" = "Boek";
+
+/* Localized kind: E-Book */
+"E-Book" = "E-Boek";
+
+/* Localized kind: Movie */
+"Movie" = "Film";
+
+/* Localized kind: Music Video */
+"Music Video" = "Videoclip";
+
+/* Localized kind: Podcast */
+"Podcast" = "Podcast";
+
+/* Localized kind: Song */
+"Song" = "Liedje";
+
+/* Localized kind: TV Episode */
+"TV Episode" = "TV serie";
+
+/* Search results: Nothing Found */
+"Nothing Found" = "Niets gevonden";
+
+/* Network error message */
+"There was an error accessing the iTunes Store. Please try again." = "Er ging iets fout bij het communiceren met de iTunes winkel. Probeer het nog eens.";
+
+/* Artist name: Unknown */
+"Unknown" = "Onbekend";
+
+/* Network error Alert title */
+"Whoops..." = "Foutje...";
+
+
+
