@@ -22,6 +22,7 @@
 		EC58C1B9221D78F600B8F435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC58C1B8221D78F600B8F435 /* Assets.xcassets */; };
 		EC58C1C7221D78F600B8F435 /* StoreSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1C6221D78F600B8F435 /* StoreSearchTests.swift */; };
 		EC58C1D2221D78F600B8F435 /* StoreSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C1D1221D78F600B8F435 /* StoreSearchUITests.swift */; };
+		EC5F9E9E22254BF8008116BD /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F9E9D22254BF8008116BD /* Search.swift */; };
 		EC76F77B2224153600E19A8C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77A2224153600E19A8C /* GradientView.swift */; };
 		EC76F77D2224193E00E19A8C /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */; };
 		EC76F77F22241D8600E19A8C /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */; };
@@ -68,6 +69,7 @@
 		EC58C1CD221D78F600B8F435 /* StoreSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC58C1D1221D78F600B8F435 /* StoreSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSearchUITests.swift; sourceTree = "<group>"; };
 		EC58C1D3221D78F600B8F435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5F9E9D22254BF8008116BD /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		EC76F77A2224153600E19A8C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
 		EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				EC51A1C9221EA171000DC0D0 /* SearchResult.swift */,
+				EC5F9E9D22254BF8008116BD /* Search.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				EC5739ED2220113E00733397 /* DetailViewController.swift in Sources */,
 				EC76F78122241F9C00E19A8C /* LandscapeViewController.swift in Sources */,
 				EC76F77B2224153600E19A8C /* GradientView.swift in Sources */,
+				EC5F9E9E22254BF8008116BD /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,8 +18,7 @@ class LandscapeViewController: UIViewController
     //__________ Variable __________
     private var firstTime = true
     private var downloads = [URLSessionDownloadTask]()
-    var searchResults = [SearchResult]()
-    
+    var search: Search!
     
     //__________ Load __________
     override func viewDidLoad()
@@ -50,7 +49,7 @@ class LandscapeViewController: UIViewController
         if firstTime
         {
             firstTime = false
-            tileButtons(searchResults)
+            tileButtons(search.searchResults)
         }
     }
     
