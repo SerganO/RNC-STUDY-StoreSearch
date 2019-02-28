@@ -108,6 +108,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     //___________ iPad ________
+    //**
     
     var splitVC: UISplitViewController
     {

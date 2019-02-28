@@ -25,6 +25,7 @@
 		EC5F9EA7222570DC008116BD /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5F9EA9222570DC008116BD /* LoadingCell.xib */; };
 		EC5F9EB02225758B008116BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5F9EB22225758B008116BD /* Localizable.strings */; };
 		EC5F9EB622257B0A008116BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5F9EB822257B0A008116BD /* InfoPlist.strings */; };
+		EC66B59B22282589005F7CB9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66B59A22282589005F7CB9 /* MenuViewController.swift */; };
 		EC76F77B2224153600E19A8C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77A2224153600E19A8C /* GradientView.swift */; };
 		EC76F77D2224193E00E19A8C /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */; };
 		EC76F77F22241D8600E19A8C /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */; };
@@ -79,6 +80,7 @@
 		EC5F9EB32225766D008116BD /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EC5F9EB722257B0A008116BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC5F9EB922257B0D008116BD /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC66B59A22282589005F7CB9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EC76F77A2224153600E19A8C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		EC76F77C2224193E00E19A8C /* BounceAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
 		EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				EC76F77E22241D8600E19A8C /* SlideOutAnimationController.swift */,
 				EC76F78022241F9C00E19A8C /* LandscapeViewController.swift */,
 				EC76F782222429AB00E19A8C /* FadeOutAnimationController.swift */,
+				EC66B59A22282589005F7CB9 /* MenuViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC58C1B1221D78F300B8F435 /* SearchViewController.swift in Sources */,
+				EC66B59B22282589005F7CB9 /* MenuViewController.swift in Sources */,
 				EC58C1AF221D78F300B8F435 /* AppDelegate.swift in Sources */,
 				EC5739E7222002C900733397 /* UIImageView+DownloadImage.swift in Sources */,
 				EC5739EF2220170900733397 /* DImmingPresentationController.swift in Sources */,
