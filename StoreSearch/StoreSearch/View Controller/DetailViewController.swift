@@ -23,11 +23,21 @@ class DetailViewController: UIViewController
     
     //__________ Variable __________
     
-    
+    //**
     var searchResult: SearchResult!
+    {
+        didSet
+        {
+            if isViewLoaded
+            {
+                updateUI()
+            }
+        }
+    }
+
+    var isPopUp = false
+    //**
     var downloadTask: URLSessionDownloadTask?
-    
-    
     enum AnimationStyle
     {
         case slide
@@ -61,14 +71,29 @@ class DetailViewController: UIViewController
         super.viewDidLoad()
         view.tintColor = UIColor(red: 20/255, green: 160/255, blue:160/255, alpha: 1)
         popupView.layer.cornerRadius = 10
-        
-        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(close))
-        gestureRecognizer.cancelsTouchesInView = false
-        gestureRecognizer.delegate = self
-        view.addGestureRecognizer(gestureRecognizer)
-        
-        view.backgroundColor = UIColor.clear
-        
+        //**
+        if isPopUp
+        {
+            let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(close))
+            gestureRecognizer.cancelsTouchesInView = false
+            gestureRecognizer.delegate = self
+            view.addGestureRecognizer(gestureRecognizer)
+            
+            view.backgroundColor = UIColor.clear
+        }
+        else
+        {
+            view.backgroundColor = UIColor(patternImage: UIImage(named: "LandscapeBackground")!)
+            popupView.isHidden = true
+            if let displayName = Bundle.main.localizedInfoDictionary?["CFBundleDisplayNane"] as? String
+            {
+                title = displayName
+            }
+        }
+            
+            
+            
+      
         if searchResult != nil
         {
             updateUI()
@@ -136,6 +161,9 @@ class DetailViewController: UIViewController
         {
             downloadTask = artworkImageView.loadImage(url: largeUrl)
         }
+        
+        //**
+        popupView.isHidden = false;
         
     }
     
